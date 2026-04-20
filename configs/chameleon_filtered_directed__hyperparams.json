@@ -1,0 +1,42 @@
+{
+  "mlp": {
+    "hidden_dim": 32,
+    "num_layers": 2,
+    "input_dropout": 0.5,
+    "dropout": 0.5,
+    "nonlinearity": "relu",
+    "lr": 0.0005,
+    "weight_decay": 0
+  },
+  "gcn": {
+    "hidden_dim": 32,
+    "num_layers": 2,
+    "input_dropout": 0.5,
+    "dropout": 0.5,
+    "nonlinearity": "relu",
+    "lr": 0.0005,
+    "weight_decay": 0
+  },
+  "mixhop": {
+    "hidden_dims_csv": "30,30",
+    "adj_pows": "0,1,2",
+    "output_layer": "fc",
+    "input_dropout": 0.5,
+    "layer_dropout": 0.5,
+    "nonlinearity": "relu",
+    "lr": 0.005,
+    "weight_decay": 0.0001
+  },
+  "dir_mixhop": {
+    "hidden_dims_csv": "30,30",
+    "adj_pows": "0,1,2",
+    "output_layer": "fc",
+    "input_dropout": 0.5,
+    "layer_dropout": 0.5,
+    "nonlinearity": "relu",
+    "alpha": 0.5,
+    "learn_alpha": true,
+    "lr": 0.005,
+    "weight_decay": 0.0001
+  }
+}
