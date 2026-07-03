@@ -9,6 +9,10 @@ I extend **MixHop** with two direction-aware variants:
 - **Hybrid DirMixHop** — combines directional aggregation with standard
   symmetrized propagation to capture complementary structural information.
 
+<p align="center">
+  <img src="figures/architecture.png" alt="Model architectures" width="500">
+</p>
+
 ## Results
 
 The models were evaluated on four directed heterophilous node-classification
